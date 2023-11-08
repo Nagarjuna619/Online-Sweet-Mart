@@ -14,7 +14,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-
 @Entity
 @Table(name = "admin")
 @Data
@@ -48,8 +47,8 @@ public class Admin {
 	@JoinColumn(name="cart_id")
 	private Cart cart;
 	
-	@OneToOne
-	private SweetItem item;
+	//@OneToOne
+	//private SweetItem item;
 	
 	
 	
