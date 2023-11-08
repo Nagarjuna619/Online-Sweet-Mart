@@ -9,13 +9,13 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
-import com.OSM.in.entity.Admin;
-import com.OSM.in.entity.Cart;
-import com.OSM.in.entity.Category;
-import com.OSM.in.entity.Customer;
-import com.OSM.in.entity.Product;
-import com.OSM.in.entity.SweetItem;
-import com.OSM.in.entity.User;
+//import com.OSM.in.entity.Admin;
+//import com.OSM.in.entity.Cart;
+//import com.OSM.in.entity.Category;
+//import com.OSM.in.entity.Customer;
+//import com.OSM.in.entity.Product;
+//import com.OSM.in.entity.SweetItem;
+//import com.OSM.in.entity.User;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
