@@ -8,7 +8,8 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
-import javax.validation.constraints.NotBlank;
+import javax.validation.Valid;
+import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
 import lombok.AllArgsConstructor;
@@ -24,26 +25,30 @@ public class Admin {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	
 	@NotNull
 	private int adminId;
 	
-	@NotBlank
+	@NotEmpty
 	private String password;
 	
-	
+	@Valid
 	@OneToOne
 	@JoinColumn
 	private Customer customer;
 	
+	
+	@Valid
 	@OneToOne
 	@JoinColumn
 	private User user;
 	
+	
+	@Valid
 	@OneToOne
 	@JoinColumn
 	private Product product;
 	
+	@Valid
 	@OneToOne
 	@JoinColumn
 	private Category category;
