@@ -4,8 +4,6 @@ import java.util.List;
 
 import com.osm.in.entity.SweetOrder;
 
-
-
 public interface SweetOrderService {
 
 	public SweetOrder addSweetOrder(SweetOrder sweetOrder);
