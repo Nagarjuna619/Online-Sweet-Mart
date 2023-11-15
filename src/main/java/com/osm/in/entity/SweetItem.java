@@ -21,7 +21,6 @@ public class SweetItem {
 	@NotNull
 	private Integer orderItemId;
 	
-	@ManyToOne
 	private Product product;
 	
 	@ManyToOne
